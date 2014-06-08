@@ -1,0 +1,56 @@
+.pricing-table ul{ 
+    border-width: 1px; 
+    border-style: solid; 
+    border-color: #FFF; 
+    border-radius: 3px; 
+    margin: 3px; 
+    width: 200px; 
+    text-align: center; 
+    list-style: none; 
+    float: left; 
+    padding: 0px; 
+    background-color: #000;
+} 
+.pricing-table ul li{ 
+    padding: 5px; 
+    background-color: #000; 
+    border-width: 2px; 
+    border-color: #B83737; 
+    border-radius: 0px; 
+    border-bottom-width: 2px; 
+    font-size: 14px; 
+} 
+.pricing-table li:nth-child(odd){ 
+    background-color: #000; 
+} 
+.pricing-table ul .heading{ 
+    color: #000; 
+    background-color: #CC6; 
+    font-size: 16px; 
+	font-family:Verdana, Geneva, sans-serif;
+	font-weight:bold;
+} 
+.pricing-table ul .price{ 
+    font-size: 25px; 
+} 
+.pricing-table ul .action{ 
+    font-size: 14px; 
+    color: #2A6496; 
+} 
+.feature{ 
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1); 
+    box-shadow: 3px 5px 7px rgba(0,0,0,.7); 
+} 
+.pricing-table .action a{ 
+    border-color: #B83737; 
+    border-width: 0px; 
+    border-radius: 2px; 
+    background-color: #eeeeee; 
+    padding-top: 5px; 
+    padding-bottom: 5px; 
+    padding-left: 15px; 
+    padding-right: 15px; 
+    border-style: solid; 
+    color: #000000; 
+}
